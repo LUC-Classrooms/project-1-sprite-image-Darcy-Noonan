@@ -9,13 +9,13 @@
  */
 
 // Global Variables 
-var a = .2 // rotation angle
+var a = .5 // rotation angle
 var x = 0, y = 0// sprite position 
 
 // Setup for Canvas, New X/Y
 function setup() {
   // this function will run once
-  createCanvas(600, 400); // create a 600x400 pixel drawing canvas
+  createCanvas(600, 600); // create a 600x400 pixel drawing canvas
 x = width/2; //sets a new value for X. 
 y = height/2; // sets a new value for y.
 }
