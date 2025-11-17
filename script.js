@@ -49,7 +49,7 @@ rotate (a) // rotation angle. Moves diagonally upwards
     }
   }
   if (mouseX > x) { // changes the rotation angle when the mouse is on the left side. 
-    a = .4; //steeper angle
+    a = .9; //steeper angle
   } else {
-    a = .3;} // defaults to less steep angle
+    a = .1;} // defaults to less steep angle
   }
